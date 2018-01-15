@@ -91,7 +91,7 @@ let userNumber = prompt('What is your lucky number?');
 // TODO: generate TWO more numbers called "number2" and "number 3".
 // Use any operator you would like to add, multiply, divide, or otherwise
 // change the number that the user submitted.
-let number2 = userNumber(userNumber, 4);
+let number2 = userNumber + 4;
 
 let number3 = userNumber / number2 + (number2/12);
 
